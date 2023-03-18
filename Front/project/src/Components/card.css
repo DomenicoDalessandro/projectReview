@@ -1,0 +1,181 @@
+body {
+  background-color: #7cb4ac;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 100vh;
+}
+/*Modifica Immagini*/
+.card-img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-color: #a8a8a8;
+  border-style: outset;
+  border-radius: 25%;
+}
+.card-dimension-game {
+  color: #c69401;
+  width: 300px;
+  height: 450px;
+  background: linear-gradient(
+    to bottom,
+
+    #0b7c65,
+    #0b217c,
+    #7c2c0b
+  );
+  border-color: #c69401;
+  border-style: outset;
+}
+
+.card-dimension-game > .card-footer {
+  background: linear-gradient(
+    to top,
+
+    #0b7c65,
+    #0b217c,
+    #7c2c0b
+  );
+}
+.card-footer > button {
+  width: 50px;
+  height: 50px;
+  border-color: black;
+  border-radius: 50%;
+}
+.btn-group > button {
+  width: 45px;
+  height: 40px;
+}
+/*Modifica Nav*/
+.color-nav-ospiti {
+  color: #a8a8a8;
+  background: linear-gradient(
+    to left,
+
+    #0b7c65,
+    #0b217c,
+    #7c2c0b,
+    #590d01
+  );
+
+  border-end-end-radius: 25%;
+  border-color: #a8a8a8;
+}
+.color-nav-user {
+  color: #a8a8a8;
+  background: linear-gradient(
+    to left,
+
+    #0b7c65,
+    #0b217c,
+    #7c2c0b,
+    #590d01
+  );
+  border-end-end-radius: 25%;
+}
+/*Card User*/
+.user-card {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  background: linear-gradient(
+    to top,
+
+    #0b7c65,
+    #0b217c,
+    #7c2c0b
+  );
+}
+.user-card > .card-body {
+  color: #a8a8a8;
+  background: fixed;
+  border-radius: 5%;
+  width: 180px;
+  height: 120px;
+}
+.user-card > .card-footer {
+  background: none;
+}
+/*Nav Amministratore*/
+.admin-nav {
+  background-color: #0b7c65;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-style: groove;
+  border-color: #c69401;
+}
+/*Tutti gli off Canvas*/
+.offcanvas {
+  border: 3px !important;
+  border-color: #c69401 !important;
+  border-style: outset !important;
+  background-color: #0b7c65;
+  border-bottom-style: outset;
+  border-bottom-color: #c69401;
+}
+.offcanvas > .offcanvas-body > .list-group > .list-group-item {
+  border-color: #c69401;
+  border-style: solid;
+  margin-bottom: 2px;
+  background-color: #a8a8a8;
+}
+/*tutti i modali*/
+.modal-content {
+  border-color: #c69401;
+  border-style: outset;
+  background-color: #0b7c65;
+}
+.modal-content > .modal-body > .list-group {
+  max-height: 300px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+.modal-content > .modal-body > .list-group > .list-group-item {
+  border-bottom: #c69401;
+  border-style: solid;
+}
+/*Recensioni non utente specifico /admin*/
+.modal-content > .modal-body > .list-group > .list-group-item > button {
+  width: 40px;
+  height: 40px;
+}
+
+.flip-card {
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+.flip-card:hover {
+  animation-name: rotate;
+  animation-timing-function: ease;
+}
+@keyframes rotate {
+  50% {
+    transform: scale(1.05);
+  }
+}
+/*Recensioni modal utente specifico*/
+.modal-content
+  > .modal-body
+  > .list-group
+  > .list-group
+  > .list-group-item
+  > button {
+  border-style: solid;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ffc107a8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cad1d6;
+  border-radius: 10px;
+}
